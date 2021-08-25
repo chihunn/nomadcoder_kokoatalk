@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import "reset.css";
+@import "variable.css";
+
+/*components*/
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
+@import "components/icons-row.css";
+
+
+/*screens*/
+@import "screen/login.css";
+@import "screen/friend.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chat.css";
+
+body{
+  font-family: 'Sigmar One', cursive;
+  margin-top:30px;
+  background-color:#ffeaa7;
+}
+
+.main-screen{
+  padding:0px var(--horizontal-space);
+}

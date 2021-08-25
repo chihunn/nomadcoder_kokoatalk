@@ -1,0 +1,28 @@
+.suggestion__title{
+  padding:20px 0px;
+  border-top:var(--border);
+}
+
+.suggestion__img{
+  width:60px;
+  height:60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#fdcb6e;
+  border-radius:10px;
+  margin-bottom:10px;
+}
+
+.suggestion__icon{
+  display: flex;
+  flex-direction: column;
+  margin-top:20px;
+  align-items: center;
+  width:25%;
+}
+
+.suggestion__icons{
+  display: flex;
+  justify-content: space-between;
+}

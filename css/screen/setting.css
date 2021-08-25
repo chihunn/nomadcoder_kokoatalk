@@ -1,0 +1,37 @@
+.setting__header{
+  display:flex;
+  width:100%;
+  padding:15px 10px;
+  box-sizing: border-box;
+  margin-bottom:30px;
+}
+
+.setting__header__column{
+  width:33%;
+  font-size:30px;
+  align-items: center;
+}
+
+.setting__header__column:nth-child(2){
+  display: flex;
+  justify-content: center;
+}
+
+.setting__header__column:last-child{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.setting__component{
+  display: flex;
+  justify-content: space-between;
+  border-bottom:var(--border);
+} 
+
+.setting__column{
+  padding:15px 0px;
+}
+
+.setting__column:last-child{
+  color:var(--gray);
+}
